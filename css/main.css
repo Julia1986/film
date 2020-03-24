@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&display=swap');
+* {
     padding: 0;
     margin: 0;
 }
 .header {
-    background: #ADD7E3;
+    background: linear-gradient(#7DE3D8 60px, transparent);
 }
 .logo_text h1, .logo_text h2 {
     font-family: Kaushan Script;
@@ -24,6 +25,32 @@ body {
 }
 .logo {
     min-width: 880px;
+}
+.menu > li {
+    list-style: none;
+}
+ul.menu li a {
+    font-family: Markazi Text;
+    display: block;
+    color: #24434D;
+    text-decoration: none;
+    border: 1px solid transparent; 
+}
+ul.menu> li.selected > a {
+    color: #802557;
+}
+ul.menu > li > a:hover {
+    color: #802557;
+}
+.menubar li {
+    display: inline-block;
+}
+ul.menu {
+    float: right;
+}
+ul.menu > li {
+    float: left;
+    list-style: none;
 }
 .main, .logo, .menubar, .site_content, .footer {
     margin-left: auto;
