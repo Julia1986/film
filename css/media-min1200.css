@@ -53,4 +53,7 @@ input {
 .sidebar h2 {
     padding-bottom: 5px;
 } 
+.side_btn {
+    font-size: 14px;
+}
 }
