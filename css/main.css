@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+h1 > a {
+    font-family: Kaushan Script;
+    font-weight: 600;
+    text-decoration: none;
+    color: #303c73;
+    text-decoration: none;
+}
