@@ -18,7 +18,7 @@
     min-width: 880px;
 }
 .menubar {
-    width: 992px;
+    width: 900px;
     height: 30px;
     display: block;
 }
@@ -29,7 +29,28 @@ ul.menu > li {
 ul.menu > li > a {
     font-size: 30px;
     display: block;
-    padding: 0 30px 15px 30px;
+    padding: 0 20px 15px 45px;
     height: 30px;
 }
+.site_content {
+    width: 1200px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background: white;
+}
+.sidebar_container {
+    width: 300px;
+}
+.sidebar {
+    width: 280px; 
+    padding: 10% 5%;
+    margin: 0 0 20px 0;
+}
+input {
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+.sidebar h2 {
+    padding-bottom: 5px;
+} 
 }

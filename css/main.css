@@ -1,58 +1,111 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: Markazi Text;
+}
+
 .header {
     background: linear-gradient(#7DE3D8 60px, transparent);
 }
+
 .logo_text h1, .logo_text h2 {
     font-family: Kaushan Script;
 }
+
 .logo_text h1 a {
     font-weight: 600;
     text-decoration: none;
     color: #2C535E;
     text-decoration: none;
 }
+
 .logo_text h1 a:hover {
     color: #467280;
 }
+
 .logo_text h2 {
     font-weight: 400;
     color: #3a5e69;
 }
+
 .logo {
     min-width: 880px;
 }
-.menu > li {
+
+.menu>li {
     list-style: none;
 }
+
 ul.menu li a {
-    font-family: Markazi Text;
+    font-family: Kaushan Script;
+    font-style: italic;
     display: block;
     color: #24434D;
     text-decoration: none;
-    border: 1px solid transparent; 
+    border: 1px solid transparent;
 }
-ul.menu> li.selected > a {
+
+ul.menu>li.selected>a {
     color: #802557;
 }
-ul.menu > li > a:hover {
+
+ul.menu>li>a:hover {
     color: #802557;
 }
+
 .menubar li {
     display: inline-block;
 }
+
 ul.menu {
     float: right;
 }
-ul.menu > li {
+
+ul.menu>li {
     float: left;
     list-style: none;
 }
-.main, .logo, .menubar, .site_content, .footer {
+
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
     margin-left: auto;
     margin-right: auto;
-} 
+}
+
+.sidebar_container {
+    float: right;
+}
+
+.sidebar {
+    float: right;
+    color: #24434D;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    background: #b4faf2;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #24434D;
+}
+
+.side_btn {
+    color: ##296B63;
+    border: 1px solid #296B63;
+    font-weight: bold;
+    background: white;
+}
+
+.side_btn:hover {
+    background: #0C3834;
+    color: white;
+}
