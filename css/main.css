@@ -6,15 +6,19 @@ body {
 .header {
     background: #ADD7E3;
 }
-h1 > a {
+.logo_text h1, .logo_text h2 {
     font-family: Kaushan Script;
+}
+.logo_text h1 a {
     font-weight: 600;
     text-decoration: none;
     color: #2C535E;
     text-decoration: none;
 }
-.header h2 {
-    font-family: Kaushan Script;
+.logo_text h1 a:hover {
+    color: #467280;
+}
+.logo_text h2 {
     font-weight: 400;
     color: #3a5e69;
 }

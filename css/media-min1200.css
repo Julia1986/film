@@ -1,16 +1,17 @@
 @media only screen and (min-width: 1200px) {
 .header {
-    height: 350px; 
+    height: 300px; 
     min-width: 900px;
     padding-left: 250px;
     margin-top: -27px;
-    padding-top: 27px;
+    padding-top: 15px;
 }
-.header h1 {
+.logo_text h1 {
     font-size: 4rem;
     margin-bottom: 0;
+    letter-spacing: 0.1;
 }
-.header h2 {
+.logo_text h2 {
     font-size: 2.5rem;
     margin-top: 0;
 }
