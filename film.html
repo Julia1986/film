@@ -32,8 +32,20 @@
 				<div class="sidebar">
 					<h2>Search</h2>
 					<form method="post" action="#" id="search-form">
-						<input type="search" type="search_field" placeholder="your request" />
+						<input type="search" name="search_field" placeholder="your request" />
 						<input type="submit" type="btn" class="side_btn" value="find" /> <!--input с классом btn не закрывается слешем, а с type="btn" закрывается слешем. Почему?-->
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Enter</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="login" />
+						<input type="password" name="password_field" placeholder="password" /> <!--input с type password показывает точечки при вводе пароля-->
+						<input type="submit" class="btn" value="enter" />
+						<div class="lables_passreg-text">
+							<span><a href="">forgot your password?</a></span> |
+							<span><a href="">registration</a></span>
+						</div>
 					</form>
 				</div>
 			</div>

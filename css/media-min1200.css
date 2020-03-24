@@ -48,12 +48,13 @@ ul.menu > li > a {
 }
 input {
     padding: 10px 15px;
-    margin-right: 10px;
+    margin: 0 10px 15px 0;
 }
-.sidebar h2 {
-    padding-bottom: 5px;
-} 
-.side_btn {
+.side_btn, .btn {
     font-size: 14px;
+}
+.lables_passreg-text a {
+    font-size: 18px;
+    padding: 0 15px;
 }
 }

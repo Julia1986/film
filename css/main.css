@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+a, a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
 input[type="text"], input[type="password"], input[type="search"] {
     border-radius: 5px;
     border: 1px solid #f2f2f2;
@@ -18,6 +23,11 @@ input, textarea {
     border: 1px solid #f2f2f2;
 }
 
+.sidebar_container h2 {
+    color: #24434D;
+    padding-bottom: 5px;
+}
+
 .header {
     background: linear-gradient(#7DE3D8 60px, transparent);
 }
@@ -28,7 +38,6 @@ input, textarea {
 
 .logo_text h1 a {
     font-weight: 600;
-    text-decoration: none;
     color: #2C535E;
     text-decoration: none;
 }
@@ -55,7 +64,6 @@ ul.menu li a {
     font-weight: 700;
     display: block;
     color: #24434D;
-    text-decoration: none;
     border: 1px solid transparent;
     cursor: pointer;
 }
@@ -64,8 +72,12 @@ ul.menu>li.selected>a {
     color: #802557;
 }
 
-ul.menu>li>a:hover {
+ul.menu>li.selected>a:hover {
     color: #802557;
+}
+
+ul.menu>li>a:hover {
+    color: #5a8fa1;
 }
 
 .menubar li {
@@ -100,13 +112,12 @@ ul.menu>li {
 
 .sidebar {
     float: right;
-    color: #24434D;
     border: 1px solid #f2f2f2;
     border-radius: 12px;
     background: #d3ffff;
 }
 
-.side_btn {
+.side_btn, .btn {
     color: white;
     border: none;
     border-radius: 5px;
@@ -115,6 +126,17 @@ ul.menu>li {
     cursor: pointer;
 }
 
-.side_btn:hover {
+.side_btn:hover,
+.btn:hover {
     background: #8F2557;
+}
+.lables_passreg-text {
+    text-align: center;
+}
+.lables_passreg-text a {
+    color: #8F2557;
+    font-weight: bold;
+}
+.lables_passreg-text a:hover {
+    color: #5a8fa1;
 }
