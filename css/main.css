@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background: #ADD7E3;
+}
 h1 > a {
     font-family: Kaushan Script;
     font-weight: 600;
     text-decoration: none;
-    color: #303c73;
+    color: #2C535E;
     text-decoration: none;
 }
+.header h2 {
+    font-family: Kaushan Script;
+    font-weight: 400;
+    color: #3a5e69;
+}
+.logo {
+    min-width: 880px;
+}
+.main, .logo, .menubar, .site_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+} 
