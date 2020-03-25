@@ -180,11 +180,23 @@ ul.menu>li {
     opacity: 0.6;
 }
 
+.posts h2 > a {
+    color: #00a18f;
+}
+
+.posts h2 > a:hover, .content h1:hover, .posts p > a:hover {
+    color: #5a8fa1;
+}
+
+.posts_content p, .posts p > a {
+    color: #24434D;
+}
+
 .footer {
     position: absolute;
     width: 100%;
     font-weight: bold;
-    background: #00a18f;
+    background: #11b19e;
     color: #1f2b2a;
 }
 
