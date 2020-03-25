@@ -130,23 +130,43 @@ ul.menu>li {
 .btn:hover {
     background: #5a8fa1;
 }
+
 .lables_passreg-text {
     text-align: center;
 }
+
 .lables_passreg-text a {
     color: #5a8fa1;
     font-weight: bold;
 }
+
 .lables_passreg-text a:hover {
     color: #5a8fa1;
 }
+
 .sidebar a {
     color: #24434D;
 }
+
 .sidebar a:hover {
     color: #5a8fa1;
 }
 
 .sidebar ul > li {
     list-style: none;
+}
+
+.footer {
+    font-weight: bold;
+    background: #00a18f;
+    color: #1f2b2a;
+}
+
+.footer a {
+    color: #1f2b2a;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    padding-bottom: 5px;
 }
