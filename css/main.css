@@ -69,11 +69,11 @@ ul.menu li a {
 }
 
 ul.menu>li.selected>a {
-    color: #802557;
+    color: #5a8fa1;
 }
 
 ul.menu>li.selected>a:hover {
-    color: #802557;
+    color: #5a8fa1;
 }
 
 ul.menu>li>a:hover {
@@ -128,15 +128,25 @@ ul.menu>li {
 
 .side_btn:hover,
 .btn:hover {
-    background: #8F2557;
+    background: #5a8fa1;
 }
 .lables_passreg-text {
     text-align: center;
 }
 .lables_passreg-text a {
-    color: #8F2557;
+    color: #5a8fa1;
     font-weight: bold;
 }
 .lables_passreg-text a:hover {
     color: #5a8fa1;
+}
+.sidebar a {
+    color: #24434D;
+}
+.sidebar a:hover {
+    color: #5a8fa1;
+}
+
+.sidebar ul > li {
+    list-style: none;
 }

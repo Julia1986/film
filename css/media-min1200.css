@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1200px) {
+p {
+    line-height: 1em;
+}
 .header {
     height: 250px; 
     min-width: 900px;
@@ -29,7 +32,7 @@ ul.menu > li {
 ul.menu > li > a {
     font-size: 30px;
     display: block;
-    padding: 0 20px 15px 45px;
+    padding: 0 20px 15px 25px;
     height: 30px;
 }
 .site_content {
@@ -56,5 +59,17 @@ input {
 .lables_passreg-text a {
     font-size: 18px;
     padding: 0 15px;
+}
+.sidebar .date {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.sidebar ul > li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.sidebar .rating_sidebar {
+    float: right;
+    padding-right: 25px;
 }
 }
