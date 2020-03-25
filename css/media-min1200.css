@@ -84,7 +84,10 @@ input {
     font-size: 40px;
 }
 .films_block {
-    margin-bottom: 5%;
+    margin-bottom: 15%;
+}
+.films_block h1 {
+    margin: 80px 0 20px 0;
 }
 .films_block img {
     width: 22%;
@@ -92,10 +95,11 @@ input {
     margin-right: 20px; 
 }
 .footer {
-    position: relative;
+    left: 0;
+    bottom: -240px;
     height: 120px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 120px;
     padding-top: 50px;
     font-size: 20px;
 }

@@ -23,6 +23,10 @@ input, textarea {
     border: 1px solid #f2f2f2;
 }
 
+.main {
+    position: relative;
+}
+
 .sidebar_container h2 {
     color: #24434D;
     padding-bottom: 5px;
@@ -160,7 +164,17 @@ ul.menu>li {
     text-decoration: none;
 }
 
+.content h1 {
+    color: #2C535E;
+}
+
+.films_block img {
+    border: 1px solid #bdbebd; 
+}
+
 .footer {
+    position: absolute;
+    width: 100%;
     font-weight: bold;
     background: #00a18f;
     color: #1f2b2a;
