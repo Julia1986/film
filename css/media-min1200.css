@@ -114,6 +114,33 @@ input {
     height: 250px;
     width: 400px;
 }
+
+.content iframe {
+    margin-bottom: 20px;
+}
+.info_film_page {
+    margin-bottom: 4%;
+}
+.info_film_page span {
+    font-size: 22px;
+} 
+.info_film_page span.value {
+    margin: 0 15px 0 3px;
+}
+.description img {
+    float: left;
+    wigth: 250px;
+}
+.description h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.description p {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
 .footer {
     left: 0;
     bottom: -240px;

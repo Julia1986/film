@@ -31,7 +31,7 @@ hr {
     position: relative;
 }
 
-.sidebar_container h2 {
+.sidebar_container h2, .description a {
     color: #24434D;
     padding-bottom: 5px;
 }
@@ -50,7 +50,9 @@ hr {
     text-decoration: none;
 }
 
-.logo_text h1 a:hover {
+.logo_text h1 a:hover, 
+.info_film_page span,
+.description a:hover {
     color: #467280;
 }
 
