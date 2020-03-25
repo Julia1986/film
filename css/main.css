@@ -186,12 +186,25 @@ ul.menu>li {
     color: #00a18f;
 }
 
-.posts h2 > a:hover, .content h1:hover, .posts p > a:hover {
+.posts h2 > a:hover, 
+.content h1:hover, 
+.posts p > a:hover {
     color: #5a8fa1;
 }
 
 .posts_content p, .posts p > a {
     color: #24434D;
+}
+
+.description h2, 
+.reviews h2 {
+    color: #467280;
+    font-weight: 700;
+}
+
+.review_name {
+    background: #2C535E;
+    color: #d3ffff;
 }
 
 .footer {
