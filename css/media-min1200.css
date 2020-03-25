@@ -127,18 +127,18 @@ input {
 .info_film_page span.value {
     margin: 0 15px 0 3px;
 }
-.description img {
+.description_text img {
     float: left;
-    wigth: 250px;
+    width: 250px;
+    margin-right: 20px;
 }
 .description h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.description p {
+.description_text {
     font-size: 22px;
     line-height: 1.2;
-    margin-bottom: 15px;
 }
 
 .footer {
