@@ -23,6 +23,10 @@ input, textarea {
     border: 1px solid #f2f2f2;
 }
 
+hr {
+    border: 1px solid #b7edcc;
+}
+
 .main {
     position: relative;
 }
@@ -169,7 +173,11 @@ ul.menu>li {
 }
 
 .films_block img {
-    border: 1px solid #bdbebd; 
+    box-shadow: 1px -2px 3px #bdbebd; 
+}
+
+.films_block img:hover {
+    opacity: 0.6;
 }
 
 .footer {
