@@ -72,6 +72,25 @@ input {
     float: right;
     padding-right: 25px;
 }
+.content {
+    float: left;
+    text-align: left;
+    width: 800px;
+    padding: 0 15px;
+    margin-left: 30px;
+}
+.content h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.films_block {
+    margin-bottom: 5%;
+}
+.films_block img {
+    width: 22%;
+    height: 250px;
+    margin-right: 20px; 
+}
 .footer {
     position: relative;
     height: 120px;
