@@ -199,12 +199,15 @@ ul.menu>li {
 
 .posts h2 > a:hover, 
 .content h1:hover, 
-.posts p > a:hover {
+.posts p > a:hover,
+.center > a:hover {
     color: #5a8fa1;
 }
 
 .posts_content p, 
-.posts p > a {
+.posts p > a,
+.center,
+.center > a {
     color: #24434D;
 }
 
@@ -228,6 +231,33 @@ ul.menu>li {
 .send .btn:hover,
 .info_film .button > a:hover {
     background: #467280;
+}
+
+table {
+    width: 98%;
+    border: 1px solid #b7edcc;
+    text-align: center;
+}
+
+td img {
+    vertical-align: middle;
+}
+
+td img:hover {
+    opacity: 0.5;
+}
+
+td {
+    padding: 2%;
+    border: 1px solid #b7edcc;
+}
+
+.center {
+    text-align: center;
+}
+
+.rating {
+    font-weight: bold;
 }
 
 .footer {

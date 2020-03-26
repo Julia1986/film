@@ -190,6 +190,14 @@ input {
 .info_film {
     margin-bottom: 120px;
 }
+td img {
+    width: 100px;
+    height: 130px;
+}
+.center {
+    padding: 5px 0;
+    font-size: 22px;
+}
 
 .footer {
     left: 0;
