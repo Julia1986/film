@@ -127,25 +127,25 @@ input {
 .info_film_page span.value {
     margin: 0 15px 0 3px;
 }
-.description_text img {
+.description_text img,
+.info_film img {
     float: left;
     width: 250px;
-    margin-right: 20px;
+    margin: 0 25px 15px 0;
 }
 .description h2, 
 .reviews h2 {
     font-size: 35px;
 }
 .description_text, 
-.review_text {
+.review_text,
+.info_film {
     width: 750px;
     padding: 10px 0 20px 15px;
 }
-.description_text img {
-    margin: 0 25px 15px 0;
-}
 .description_text p,
-.review_text {
+.review_text,
+.info_film p {
     line-height: 1.3;
     margin: 20px 0 15px 0;
     font-size: 22px;
@@ -174,6 +174,24 @@ input {
     height: 200px;
     padding: 10px 15px;
     border-radius: 5px;
+}
+.info_film {
+    position: relative;
+}
+.info_film .button > a {
+    max-width: 120px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+}
+.info_film p {
+    margin-bottom: 40px;
+}
+.info_film {
+    margin-bottom: 80px;
 }
 
 .footer {

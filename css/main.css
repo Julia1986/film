@@ -136,7 +136,9 @@ ul.menu>li {
     background: #d3ffff;
 }
 
-.side_btn, .btn {
+.side_btn, 
+.btn,
+.info_film .button > a {
     color: white;
     border: none;
     border-radius: 5px;
@@ -201,7 +203,8 @@ ul.menu>li {
     color: #5a8fa1;
 }
 
-.posts_content p, .posts p > a {
+.posts_content p, 
+.posts p > a {
     color: #24434D;
 }
 
@@ -216,11 +219,14 @@ ul.menu>li {
     color: #d3ffff;
 }
 
-.review_text, .description_text p {
+.review_text, 
+.description_text p,
+.info_film p {
     color: #24434D;
 }
 
-.send .btn:hover {
+.send .btn:hover,
+.info_film .button > a:hover {
     background: #467280;
 }
 
