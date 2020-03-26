@@ -6,20 +6,21 @@ hr {
     width: 770px;
     margin-bottom: 50px;
 }
+/*header*/
 .header {
-    height: 300px; 
+    height: 220px; 
     min-width: 900px;
-    padding-left: 200px;
+    padding-left: 50px;
     padding-top: 30px;
 }
 .logo_text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 0;
     letter-spacing: 0.1;
 }
 .logo_text h2 {
-    font-size: 2.5rem;
-    margin: 0 0 50px 0;
+    font-size: 2rem;
+    margin: 0 0 25px 0;
 }
 .logo {
     min-width: 880px;
@@ -34,22 +35,22 @@ ul.menu > li {
     margin: 1px 2px 0 0;
 }
 ul.menu > li > a {
-    font-size: 30px;
+    font-size: 25px;
     display: block;
-    padding: 0 20px 15px 25px;
+    padding: 0 15px 15px 20px;
     height: 30px;
 }
 .site_content {
-    width: 1200px;
+    width: 950px;
     overflow: hidden;
     margin: 20px auto 0 auto;
     background: white;
 }
 .sidebar_container {
-    width: 300px;
+    width: 250px;
 }
 .sidebar {
-    width: 280px; 
+    width: 230px; 
     padding: 10% 5%;
     margin: 0 0 20px 0;
 }
@@ -61,8 +62,8 @@ input {
     font-size: 14px;
 }
 .lables_passreg-text a {
-    font-size: 18px;
-    padding: 0 15px;
+    font-size: 17px;
+    padding: 0 5px;
 }
 .sidebar .date {
     font-size: 18px;
@@ -79,13 +80,13 @@ input {
 .content {
     float: left;
     text-align: left;
-    width: 800px;
+    width: 600px;
     padding: 0 15px;
     margin-left: 30px;
 }
 .content h1 {
     margin-bottom: 35px;
-    font-size: 40px;
+    font-size: 35px;
 }
 .films_block {
     margin-bottom: 15%;
@@ -94,17 +95,24 @@ input {
     margin: 80px 0 30px 0;
 }
 .films_block img {
-    width: 22%;
-    height: 250px;
+    width: 20%;
+    height: 170px;
     margin-right: 20px; 
 }
+.sidebar input[type="search"] {
+    width: 98%;
+}
+.sidebar input[type="text"],
+.sidebar input[type="password"] {
+    width: 85%;
+}
 .posts h2 {
-    font-size: 35px;
-    padding-bottom: 25px;
+    font-size: 28px;
+    padding-bottom: 20px;
 }
 .posts_content p {
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 1.2;
     padding-bottom: 30px;
 }
 .posts p > a {
@@ -210,11 +218,12 @@ td img {
 }
 .footer a {
     margin: 0 30px;
+    font-size: 25px;
 }
 .copy {
     position: absolute;
     font-size: 18px;
     bottom: 45px;
-    left: 40%;
+    left: 30%;
 }
 }
