@@ -23,6 +23,15 @@ input, textarea {
     border: 1px solid #f2f2f2;
 }
 
+.send input[type="submit"] {
+    background: #2C535E;
+}
+
+.send input[type="text"], textarea {
+    border: 1px solid #b7edcc;
+    color: #24434D;
+}
+
 hr {
     border: 1px solid #b7edcc;
 }
@@ -205,6 +214,14 @@ ul.menu>li {
 .review_name {
     background: #2C535E;
     color: #d3ffff;
+}
+
+.review_text, .description_text p {
+    color: #24434D;
+}
+
+.send .btn:hover {
+    background: #467280;
 }
 
 .footer {
