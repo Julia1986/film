@@ -6,6 +6,13 @@ hr {
     width: 600px;
     margin-bottom: 20px;
 }
+body {
+    height: 100%;
+}
+.main {
+    min-height: 100%;
+    margin-bottom: -180px;
+}
 /*header*/
 .header {
     height: 200px; 
@@ -89,7 +96,7 @@ input {
     text-align: left;
     width: 600px;
     padding: 0 15px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .content h1 {
     margin-bottom: 35px;
@@ -232,10 +239,17 @@ td img {
     margin: 0 30px;
     font-size: 20px;
 }
-.copy {
-    position: absolute;
+.copy { /*удалила абсолютную позицию у этого элемента*/
     font-size: 14px;
-    bottom: 45px;
+    bottom: 25px;
     left: 30%;
+}
+.main:after {
+    content: "";
+    display: block;
+}
+.footer, 
+.main:after { 
+    height: 180px;
 }
 }
