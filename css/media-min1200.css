@@ -135,21 +135,20 @@ input {
 .description h2, 
 .reviews h2 {
     font-size: 35px;
-    margin-bottom: 40px;
 }
 .description_text, 
 .review_text {
     font-size: 22px;
-    line-height: 1.2;
-    margin-bottom: 30px;
     padding-left: 10px;
 }
 .description_text p {
-    margin: 20px 0 40px 0;
+    line-height: 1.3;
+    margin: 20px 0 15px 0;
+    font-size: 22px;
 }
 .review_name {
-    padding: 15px 10px;
-    margin-bottom: 25px;
+    padding: 15px;
+    margin: 35px 0 20px 0;
     font-size: 24px;
     border-radius: 5px;
 }
