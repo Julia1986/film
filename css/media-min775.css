@@ -43,17 +43,23 @@ ul.menu > li > a {
 .site_content {
     width: 700px;
     overflow: hidden;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
     background: white;
+    position: relative;
+    padding-bottom: 650px;
 }
 .sidebar_container {
     width: 700px;
+    position: absolute;
+    bottom: 0;
 }
 .sidebar {
-    width: 700px; 
+    display: inline-block;
+    width: 640px; 
     padding: 20px;
     margin: 0 0 20px 0;
     float: none;
+    bottom: 0;
 }
 input {
     padding: 10px 15px;
@@ -106,6 +112,11 @@ input {
 .sidebar input[type="text"],
 .sidebar input[type="password"] {
     width: 250px;
+}
+.new-sidebar {
+    min-height: 117px;
+    width: 300px;
+    float: none;
 }
 .posts h2 {
     font-size: 28px;
