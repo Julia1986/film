@@ -1,4 +1,10 @@
 @media only screen and (min-width: 775px) and (max-width: 992px) {
+html {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100%;
+}
 p {
     line-height: 1em;
 }
@@ -11,7 +17,6 @@ body {
 }
 .main {
     min-height: 100%;
-    margin-bottom: -180px;
 }
 /*header*/
 .header {
@@ -228,20 +233,19 @@ td img {
 
 .footer {
     left: 0;
-    bottom: -180px;
     height: 110px;
     text-align: center;
-    margin-top: 100px;
     padding-top: 30px;
     font-size: 25px;
 }
 .footer a {
-    margin: 0 30px;
+    margin: 0 30px 20px 30px;
     font-size: 20px;
 }
 .copy { /*удалила абсолютную позицию у этого элемента*/
     font-size: 14px;
-    bottom: 25px;
+    bottom: 15px;
+    padding-top: 20px;
     left: 30%;
 }
 .main:after {
@@ -250,6 +254,6 @@ td img {
 }
 .footer, 
 .main:after { 
-    height: 180px;
+    height: 80px;
 }
 }
