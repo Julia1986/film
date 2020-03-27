@@ -128,6 +128,10 @@
         margin-bottom: 540px;
     }
 
+    .content-bottom {
+        margin-bottom: 150px;
+    }
+
     .content-rating {
         margin-bottom: 180px;
     }
@@ -223,7 +227,7 @@
     .description_text,
     .review_text,
     .info_film {
-        width: 600px;
+        width: 520px;
         padding: 10px 0 20px 15px;
     }
 
@@ -283,6 +287,7 @@
 
     .info_film {
         margin-bottom: 70px;
+        margin-right: 0;
     }
 
     td img {
